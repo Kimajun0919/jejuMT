@@ -19,7 +19,7 @@ export default function Info() {
         <div className="info-row">
           <span className="info-label">📅</span>
           <div>
-            <p className="info-title">1월 24일(금) 오후 3시 집결</p>
+            <p className="info-title">1월 24일(토) 오후 3시 집합</p>
             <p className="info-meta">시간 약속! 꼭 지켜주세요!</p>
           </div>
         </div>
