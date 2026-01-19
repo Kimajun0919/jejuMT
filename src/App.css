@@ -341,6 +341,7 @@
   bottom: clamp(14px, 3vw, 28px);
   transform: translateX(-50%);
   display: flex;
+  flex-wrap: nowrap;
   gap: 10px;
   padding: 8px 10px;
   background: rgba(6, 13, 26, 0.7);
@@ -348,6 +349,12 @@
   border-radius: 999px;
   backdrop-filter: blur(10px);
   z-index: 10;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.nav-bar::-webkit-scrollbar {
+  display: none;
 }
 
 .nav-pill {
@@ -356,6 +363,7 @@
   gap: 8px;
   padding: 10px 12px;
   min-height: 44px;
+  flex: 0 0 auto;
   border-radius: 999px;
   font-size: 0.95rem;
   color: #e2e8f0;
@@ -457,10 +465,6 @@
     font-size: 1rem;
   }
 
-  .nav-bar {
-    flex-wrap: wrap;
-    row-gap: 6px;
-  }
 }
 
 @media (max-width: 640px) {
@@ -491,7 +495,7 @@
 
   .nav-bar {
     max-width: calc(100% - 24px);
-    justify-content: center;
+    justify-content: flex-start;
   }
 
   .page__title {
