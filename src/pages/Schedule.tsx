@@ -15,8 +15,8 @@ const scheduleItems = [
 export default function Schedule() {
   return (
     <PageLayout
-      title="하루의 흐름"
-      subtitle="무드가 변하는 순간순간을 따라가요."
+      title="제주들의 하루"
+      subtitle="이번 MT의 하루 일정을 확인해 주세요."
       background={backgroundImage}
       accent="#f59e0b"
       badge="Schedule"

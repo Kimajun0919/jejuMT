@@ -6,22 +6,27 @@ const backgroundImage =
 export default function Ending() {
   return (
     <PageLayout
-      title="추위만 잘 준비하면, 정말 따뜻한 시간 될 거예요 🍊"
-      subtitle="모두 건강하게 만나요!"
+      title="추울 수는 있지만, 마음은 꽤 따뜻할 거예요 🍊"
+      subtitle="몸만 잘 챙겨서 편하게 오세요!"
       background={backgroundImage}
       accent="#fbbf24"
       badge="Ending"
-      ctaLabel="인트로로 돌아가기"
+      ctaLabel="처음으로 돌아가기"
       ctaTo="/"
       className="page--ending"
       cardClassName="card--ending"
     >
       <div className="ending-card">
-        <p>모닥불, 귤, 이야기만 준비해요. 단단한 방한만 챙기면 돼요.</p>
+        <p>
+          모닥불이랑 귤, 그리고 수다 준비해둘게요.
+          <br />
+          옷만 따뜻하게 입고 오면 충분해요 🙂
+        </p>
+
         <div className="pill-row">
           <span className="pill ghost">캠프파이어</span>
-          <span className="pill ghost">하이라이트 사진</span>
-          <span className="pill ghost">좋은 밤</span>
+          <span className="pill ghost">사진 잔뜩</span>
+          <span className="pill ghost">잘 쉬는 밤</span>
         </div>
       </div>
     </PageLayout>

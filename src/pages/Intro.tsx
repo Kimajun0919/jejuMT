@@ -7,21 +7,22 @@ export default function Intro() {
   return (
     <PageLayout
       title="제주 M-MT + 캠핑 🍊"
-      subtitle="이번주 토요일, 진짜 모입니다!"
+      subtitle="이번 주 토요일, 드디어 모입니다!"
       background={heroImage}
       accent="#f97316"
       badge="Warm Up"
-      ctaLabel="일정 보기 →"
+      ctaLabel="일정 보러가기 →"
       ctaTo="/info"
       className="page--intro"
       cardClassName="card--intro"
     >
       <p className="lead center">
-        포토카드 한 장처럼, 한 페이지에 하나의 기분만 담았습니다. 천천히 넘겨보세요.
+        포토카드 넘기듯이, 이번 MT 준비 한번 쓱 보고 가세요 🙂
       </p>
+
       <div className="pill-row center">
-        <span className="pill">노을·밤 감성</span>
-        <span className="pill">제주의 추억</span>
+        <span className="pill">노을 & 밤 감성</span>
+        <span className="pill">제주 추억</span>
         <span className="pill">캠프파이어</span>
         <span className="pill">불꽃놀이</span>
         <span className="pill">캠핑</span>
