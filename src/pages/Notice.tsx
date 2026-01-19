@@ -20,7 +20,11 @@ export default function Notice() {
       badge="Notice"
       ctaLabel="준비물 체크"
       ctaTo="/packing"
+      className="page--notice"
     >
+      <div className="notice-alert">
+        <strong>매우 춥습니다.</strong> 방한 준비가 가장 중요해요.
+      </div>
       <ul className="notice-list">
         {notices.map((notice) => (
           <li key={notice}>

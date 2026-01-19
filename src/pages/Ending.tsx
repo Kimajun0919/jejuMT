@@ -13,12 +13,11 @@ export default function Ending() {
       badge="Ending"
       ctaLabel="인트로로 돌아가기"
       ctaTo="/"
+      className="page--ending"
+      cardClassName="card--ending"
     >
       <div className="ending-card">
-        <p>
-          작은 모닥불, 귤 한 박스, 우리 이야기가 만나면 밤공기가 달라질 거예요. 필요한 건 따뜻한
-          마음과 단단한 방한준비 뿐!
-        </p>
+        <p>모닥불, 귤, 이야기만 준비해요. 단단한 방한만 챙기면 돼요.</p>
         <div className="pill-row">
           <span className="pill ghost">캠프파이어</span>
           <span className="pill ghost">하이라이트 사진</span>

@@ -26,6 +26,7 @@ body {
   min-height: 100vh;
   background-color: var(--ink);
   color: #e2e8f0;
+  overflow-x: hidden;
 }
 
 a {

@@ -22,6 +22,7 @@ export default function Schedule() {
       badge="Schedule"
       ctaLabel="중요 안내"
       ctaTo="/notice"
+      className="page--schedule"
     >
       <div className="timeline">
         {scheduleItems.map((item) => (

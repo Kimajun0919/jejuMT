@@ -11,6 +11,8 @@ type PageLayoutProps = {
   children: ReactNode
   ctaLabel?: string
   ctaTo?: string
+  className?: string
+  cardClassName?: string
 }
 
 export function PageLayout({
@@ -22,12 +24,14 @@ export function PageLayout({
   children,
   ctaLabel,
   ctaTo,
+  className,
+  cardClassName,
 }: PageLayoutProps) {
   const accentStyle = { '--accent-color': accent } as CSSProperties
   const backdropImage = `linear-gradient(130deg, rgba(5, 12, 26, 0.7) 0%, rgba(5, 12, 26, 0.25) 40%, rgba(5, 12, 26, 0.7) 100%), url('${background}')`
 
   return (
-    <div className="page" style={accentStyle}>
+    <div className={`page ${className ?? ''}`} style={accentStyle}>
       <div className="page__backdrop" style={{ backgroundImage: backdropImage }} />
       <div className="page__glow" />
       <div className="page__content">
@@ -36,7 +40,7 @@ export function PageLayout({
           <h1 className="page__title">{title}</h1>
           {subtitle ? <p className="page__subtitle">{subtitle}</p> : null}
         </header>
-        <section className="page__card">
+        <section className={`page__card ${cardClassName ?? ''}`}>
           {children}
           {ctaLabel && ctaTo ? (
             <div className="page__actions">

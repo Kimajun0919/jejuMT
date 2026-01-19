@@ -13,6 +13,7 @@ export default function Info() {
       badge="Info"
       ctaLabel="다음 · 일정"
       ctaTo="/schedule"
+      className="page--info"
     >
       <div className="info-grid">
         <div className="info-row">
@@ -26,7 +27,7 @@ export default function Info() {
           <span className="info-label">📍</span>
           <div>
             <p className="info-title">지원이 아지트 (송포대성농장)</p>
-            <p className="info-meta">경기 고양시 일산서구 송산로374번길 20</p>
+            <p className="info-meta address-block">경기 고양시 일산서구 송산로374번길 20</p>
           </div>
         </div>
         <div className="info-row highlight">
@@ -34,7 +35,7 @@ export default function Info() {
           <div className="info-meta">
             <p className="info-title">지도 열기</p>
             <a
-              className="cta ghost"
+              className="cta ghost full"
               href="https://maps.google.com/?q=%EA%B2%BD%EA%B8%B0%20%EA%B3%A0%EC%96%91%EC%8B%9C%20%EC%9D%BC%EC%82%B0%EC%84%9C%EA%B5%AC%20%EC%86%A1%EC%82%B0%EB%A1%9C374%EB%B2%88%EA%B8%B8%2020"
               target="_blank"
               rel="noreferrer"

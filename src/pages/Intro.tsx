@@ -13,11 +13,13 @@ export default function Intro() {
       badge="Warm Up"
       ctaLabel="일정 보기 →"
       ctaTo="/info"
+      className="page--intro"
+      cardClassName="card--intro"
     >
-      <p className="lead">
+      <p className="lead center">
         포토카드 한 장처럼, 한 페이지에 하나의 기분만 담았습니다. 천천히 넘겨보세요.
       </p>
-      <div className="pill-row">
+      <div className="pill-row center">
         <span className="pill">노을·밤 감성</span>
         <span className="pill">모바일 공유 최적화</span>
         <span className="pill">정보 + 감성 밸런스</span>

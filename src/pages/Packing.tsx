@@ -23,6 +23,7 @@ export default function Packing() {
       badge="Packing"
       ctaLabel="마무리 보기"
       ctaTo="/ending"
+      className="page--packing"
     >
       <ul className="checklist">
         {items.map((item) => (
@@ -32,7 +33,7 @@ export default function Packing() {
           </li>
         ))}
       </ul>
-      <p className="warm-tip muted">※ 공동 물품 및 바베큐 재료는 기획팀에서 준비합니다.</p>
+      <div className="note-block">※ 공동 물품 및 바베큐 재료는 기획팀에서 준비합니다.</div>
     </PageLayout>
   )
 }
