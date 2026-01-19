@@ -51,6 +51,10 @@ export default function Packing() {
     )
   }
 
+  const removeItem = (id: string) => {
+    setItems((prev) => prev.filter((item) => item.id !== id))
+  }
+
   const addItem = () => {
     const trimmed = newItem.trim()
     if (!trimmed) return
@@ -80,15 +84,25 @@ export default function Packing() {
       <ul className="checklist">
         {items.map((item) => (
           <li key={item.id}>
-            <label className="checkline">
-              <input
-                type="checkbox"
-                checked={item.checked}
-                onChange={() => toggleItem(item.id)}
-                className="check-input"
-              />
-              <span className="check-label">{item.label}</span>
-            </label>
+            <div className="check-row">
+              <label className="checkline">
+                <input
+                  type="checkbox"
+                  checked={item.checked}
+                  onChange={() => toggleItem(item.id)}
+                  className="check-input"
+                />
+                <span className="check-label">{item.label}</span>
+              </label>
+              <button
+                type="button"
+                className="remove-btn"
+                onClick={() => removeItem(item.id)}
+                aria-label={`${item.label} 삭제`}
+              >
+                ✕
+              </button>
+            </div>
           </li>
         ))}
       </ul>
