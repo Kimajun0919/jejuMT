@@ -7,7 +7,7 @@ export default function Info() {
   return (
     <PageLayout
       title="언제 · 어디서 만날까요?"
-      subtitle="핵심 정보만 선명하게 남겼어요."
+      subtitle="꼭 읽어주세요:)"
       background={backgroundImage}
       accent="#fb923c"
       badge="Info"
