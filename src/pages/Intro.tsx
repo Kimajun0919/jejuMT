@@ -22,7 +22,9 @@ export default function Intro() {
       <div className="pill-row center">
         <span className="pill">노을·밤 감성</span>
         <span className="pill">제주의 추억</span>
-        <span className="pill">정보 + 감성 밸런스</span>
+        <span className="pill">캠프파이어</span>
+        <span className="pill">불꽃놀이</span>
+        <span className="pill">캠핑</span>
       </div>
     </PageLayout>
   )
