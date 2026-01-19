@@ -25,7 +25,7 @@ export default function Notice() {
       <div className="notice-alert">
         <strong>날씨가 많이 춥습니다.</strong>
         <br />
-        방한 준비를 꼭!!
+        방한 준비를 꼭!! 잘 해주세요!
       </div>
 
       <ul className="notice-list">

@@ -16,8 +16,8 @@ const defaultItems: ChecklistItem[] = [
   { id: 'tooth', label: '세면도구', checked: false },
   { id: 'clothes', label: '개인 의류 (여벌 포함)', checked: false },
   { id: 'warm', label: '두꺼운 겉옷 및 방한용품', checked: false },
-  { id: 'sleep', label: '개인 침낭 또는 담요', checked: false },
-  { id: 'bottle', label: '개인 물병 / 텀블러', checked: false },
+  { id: 'sleep', label: '개인 침낭 또는 담요(선택)', checked: false },
+  { id: 'bottle', label: '개인 물병 / 텀블러(선택)', checked: false },
   { id: 'charge', label: '충전기 / 보조배터리', checked: false },
   { id: 'med', label: '개인 상비약', checked: false },
 ]
