@@ -17,7 +17,8 @@ export default function Intro() {
       cardClassName="card--intro"
     >
       <p className="lead center">
-        포토카드 넘기듯이, 이번 MT 준비 한번 쓱 보고 가세요 🙂
+        포토카드 넘기듯이,<br />
+        이번 MT 준비 한번 쓱 보고 가세요 🙂
       </p>
 
       <div className="pill-row center">

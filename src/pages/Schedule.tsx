@@ -5,7 +5,7 @@ const backgroundImage =
 
 const scheduleItems = [
   { time: '15:00', title: '캠핑장 집결 & 세팅', detail: '짐 풀고 텐트 세팅, 역할 분배' },
-  { time: '16:00', title: '캠핑 레크리에이션', detail: '몸 풀기 게임, 귤 깎기 챌린지' },
+  { time: '16:00', title: '캠핑 레크리에이션', detail: '몸 풀기 게임, 각종 게임(???)' },
   { time: '18:00', title: '바베큐 🍖', detail: '불 앞에서 따뜻하게, 고기 + 귤' },
   { time: '19:30', title: '미니미니 불꽃놀이 ✨', detail: '작지만 반짝이는 순간 기록(상황에 따라 일정이 변경될 수 있습니다.)' },
   { time: '20:30', title: '딥톡 찐톡 (캠프파이어 🔥)', detail: '랜턴 불빛 아래 깊은 이야기' },

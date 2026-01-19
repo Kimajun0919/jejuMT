@@ -3,7 +3,7 @@ import { type ReactNode, type CSSProperties } from 'react'
 import { Navigation } from './Navigation'
 
 type PageLayoutProps = {
-  title: string
+  title: ReactNode
   subtitle?: string
   background: string
   accent: string

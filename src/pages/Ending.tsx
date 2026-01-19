@@ -6,7 +6,13 @@ const backgroundImage =
 export default function Ending() {
   return (
     <PageLayout
-      title="추울 수는 있지만, 마음은 꽤 따뜻할 거예요 🍊"
+      title={
+        <>
+          추울 수는 있지만,
+          <br />
+          마음은 꽤 따뜻할 거예요 🍊
+        </>
+      }
       subtitle="몸만 잘 챙겨서 편하게 오세요!"
       background={backgroundImage}
       accent="#fbbf24"
@@ -18,7 +24,7 @@ export default function Ending() {
     >
       <div className="ending-card">
         <p>
-          모닥불이랑 귤, 그리고 수다 준비해둘게요.
+          모닥불이랑 귤, <br />그리고 수다 준비해둘게요.
           <br />
           옷만 따뜻하게 입고 오면 충분해요 🙂
         </p>
