@@ -21,7 +21,7 @@ export default function Intro() {
       </p>
       <div className="pill-row center">
         <span className="pill">노을·밤 감성</span>
-        <span className="pill">모바일 공유 최적화</span>
+        <span className="pill">제주의 추억</span>
         <span className="pill">정보 + 감성 밸런스</span>
       </div>
     </PageLayout>
