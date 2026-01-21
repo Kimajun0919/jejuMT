@@ -9,7 +9,8 @@ const scheduleItems = [
   { time: '18:00', title: '바베큐 🍖', detail: '불 앞에서 따뜻하게, 고기 + 귤' },
   { time: '19:30', title: '미니미니 불꽃놀이 ✨', detail: '작지만 반짝이는 순간 기록(상황에 따라 일정이 변경될 수 있습니다.)' },
   { time: '20:30', title: '딥톡 찐톡 (캠프파이어 🔥)', detail: '랜턴 불빛 아래 깊은 이야기' },
-  { time: '24:00', title: '기도제목 나누기', detail: '마무리하며 마음 모으기' },
+  { time: '22:00', title: '기도제목 나누기', detail: '마무리하며 마음 모으기' },
+  { time: '23:00', title: '찜질방⛺🔥 or 막차🚇', detail: '따뜻한 잠자리 준비 + 딥톡 찐톡' },
 ]
 
 export default function Schedule() {
